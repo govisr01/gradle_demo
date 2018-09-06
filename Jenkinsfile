@@ -14,7 +14,7 @@ pipeline
 			}
 		stage('Deploy') {
 			steps{
-			sh 'cp -r "C:\\Program Files (x86)\\Jenkins\\workspace\\SBI\\Savings\\multi-module\\webapp\\target\\webapp.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps"'
+			sh 'cp -r "C:\\Program Files (x86)\\Jenkins\\workspace\\SBI\\Recurring\\build\\libs" "C:\\\\Program Files\\\\Apache Software Foundation\\\\Tomcat 8.5\\\\webapps"'
 			}
 			}
 		}
