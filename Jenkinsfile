@@ -4,7 +4,7 @@ pipeline
 	stages{
 		stage('Git') {
 			steps{
-			git 'https://github.com/govisr01/Maven-Demo.git'
+			git 'https://github.com/govisr01/gradle_demo.git'
 			}
 			}
 		stage('Install') {
